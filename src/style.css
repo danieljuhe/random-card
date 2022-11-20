@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(13, 157, 0);
+}
+
+div {
+  top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+  font-size: 60px;
+  top: 60px;
+  border-radius: 15px;
+  margin-top: 1%;
+  border: 1px solid darkblue;
+  height: 300px;
+  width: 200px;
+  box-shadow: 10px 10px 10px -6px black;
+}
+
+.top-icon {
+  position: relative;
+  top: -20px;
+  right: 60px;
+}
+
+.bot-icon {
+  position: relative;
+  bottom: -20px;
+  left: 60px;
+  transform: rotate(180deg);
+}
+
+.button {
+  position: relative;
+  top: 400px;
+}
+
+.form-check {
+  position: relative;
+  top: 370px;
+}
