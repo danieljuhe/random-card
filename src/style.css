@@ -1,7 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: rgb(13, 157, 0);
+  background: url("https://img.freepik.com/premium-photo/poker-table-background_77211-140.jpg?w=2000");
 }
 
 div {
@@ -38,6 +38,15 @@ div {
 .button {
   position: relative;
   top: 400px;
+}
+
+.btnGen {
+  color: gold;
+  background-color: transparent;
+  border-color: gold;
+  width: 170px;
+  height: 35px;
+  border-radius: 10px;
 }
 
 .form-check {
